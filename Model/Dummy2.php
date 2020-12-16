@@ -8,4 +8,9 @@ class Dummy2 extends Dummy
     {
         var_dump("Dummy2::__construct($input)");
     }
+
+    public function show()
+    {
+        return "test";
+    }
 }
